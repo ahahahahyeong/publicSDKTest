@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* publicSDKTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = publicSDKTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61C44315C9DE54DE9AB625F5 /* publicSDKTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = publicSDKTest.podspec; path = ../publicSDKTest.podspec; sourceTree = "<group>"; };
+		61C44315C9DE54DE9AB625F5 /* publicSDKTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = publicSDKTest.podspec; path = ../publicSDKTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4973CC77CFDD326320A8BE8 /* Pods-publicSDKTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-publicSDKTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-publicSDKTest_Example/Pods-publicSDKTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5730F34B6B9B97EBC0E1071 /* Pods_publicSDKTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_publicSDKTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D59305B9D684618B57D47A1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FEF7E301A450284E5EB2C4A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D59305B9D684618B57D47A1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FEF7E301A450284E5EB2C4A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				1E4B6868CD850BD144E688C3 /* Pods-publicSDKTest_Tests.debug.xcconfig */,
 				5C9DABB6EA15FBDC24C2722D /* Pods-publicSDKTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

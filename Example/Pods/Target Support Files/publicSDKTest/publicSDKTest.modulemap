@@ -1,0 +1,6 @@
+framework module publicSDKTest {
+  umbrella header "publicSDKTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
