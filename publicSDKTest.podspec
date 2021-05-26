@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'publicSDKTest'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of publicSDKTest.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ahahahahyeong/publicSDKTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.1'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'publicSDKTest/Classes/**/*'
   
